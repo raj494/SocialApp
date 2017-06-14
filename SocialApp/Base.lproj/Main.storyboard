@@ -30,43 +30,43 @@
                             <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LRT-Cj-153">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5WX-E8-MGq">
+                                    <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5WX-E8-MGq" customClass="FancyView" customModule="SocialApp" customModuleProvider="target">
                                         <rect key="frame" x="30" y="100" width="315" height="387"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="OiY-sN-7gu">
-                                                <rect key="frame" x="10" y="200" width="295" height="150"/>
+                                                <rect key="frame" x="10" y="190" width="295" height="150"/>
                                                 <subviews>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DGb-wM-hv7">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DGb-wM-hv7" customClass="FancyField" customModule="SocialApp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="295" height="42"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
-                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bpD-v3-nLc">
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bpD-v3-nLc" customClass="FancyField" customModule="SocialApp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="54" width="295" height="42"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da1-Vl-C3D">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="da1-Vl-C3D" customClass="FancyBtn" customModule="SocialApp" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="108" width="295" height="42"/>
                                                         <color key="backgroundColor" red="0.28427408160000001" green="0.52156323800000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="SIgn In">
                                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
-                                                        <userDefinedRuntimeAttributes>
-                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="12"/>
-                                                            </userDefinedRuntimeAttribute>
-                                                        </userDefinedRuntimeAttributes>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="7WF-mY-gpg"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NiE-w4-2bw">
-                                                <rect key="frame" x="110" y="80" width="94" height="90"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NiE-w4-2bw" customClass="RoundBtn" customModule="SocialApp" customModuleProvider="target">
+                                                <rect key="frame" x="110" y="70" width="94" height="90"/>
                                                 <color key="backgroundColor" red="0.29150068759999997" green="0.4230910242" blue="0.65825402740000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="90" id="fWT-Pc-fuq"/>
@@ -74,11 +74,6 @@
                                                 <state key="normal" image="f">
                                                     <color key="titleColor" red="0.29150068759918213" green="0.42309102416038513" blue="0.65825402736663818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="15"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a sign in method" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SkR-D7-7MW">
                                                 <rect key="frame" x="35" y="15" width="244" height="36"/>
@@ -96,9 +91,9 @@
                                             <constraint firstAttribute="trailing" secondItem="NiE-w4-2bw" secondAttribute="trailing" constant="111" id="0bQ-fX-7ee"/>
                                             <constraint firstAttribute="trailing" secondItem="OiY-sN-7gu" secondAttribute="trailing" constant="10" id="1av-vb-oud"/>
                                             <constraint firstItem="OiY-sN-7gu" firstAttribute="leading" secondItem="5WX-E8-MGq" secondAttribute="leading" constant="10" id="3TX-2o-N7U"/>
-                                            <constraint firstItem="OiY-sN-7gu" firstAttribute="top" secondItem="5WX-E8-MGq" secondAttribute="top" constant="200" id="9f3-Kl-Mjb"/>
+                                            <constraint firstItem="OiY-sN-7gu" firstAttribute="top" secondItem="5WX-E8-MGq" secondAttribute="top" constant="190" id="9f3-Kl-Mjb"/>
                                             <constraint firstItem="SkR-D7-7MW" firstAttribute="top" secondItem="5WX-E8-MGq" secondAttribute="top" constant="15" id="HEu-bV-2Ul"/>
-                                            <constraint firstItem="NiE-w4-2bw" firstAttribute="top" secondItem="5WX-E8-MGq" secondAttribute="top" constant="80" id="TtH-Ig-SWI"/>
+                                            <constraint firstItem="NiE-w4-2bw" firstAttribute="top" secondItem="5WX-E8-MGq" secondAttribute="top" constant="70" id="TtH-Ig-SWI"/>
                                             <constraint firstItem="SkR-D7-7MW" firstAttribute="leading" secondItem="5WX-E8-MGq" secondAttribute="leading" constant="35" id="UjS-3B-wGl"/>
                                             <constraint firstAttribute="trailing" secondItem="SkR-D7-7MW" secondAttribute="trailing" constant="36" id="bBO-Sn-XVQ"/>
                                             <constraint firstItem="NiE-w4-2bw" firstAttribute="leading" secondItem="5WX-E8-MGq" secondAttribute="leading" constant="110" id="ika-08-HtZ"/>
@@ -160,7 +155,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44" y="108"/>
+            <point key="canvasLocation" x="193" y="87"/>
         </scene>
     </scenes>
     <resources>
