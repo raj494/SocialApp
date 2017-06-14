@@ -18,7 +18,8 @@
 		F2A013D11EF056BB0069BFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A013CF1EF056BB0069BFAA /* LaunchScreen.storyboard */; };
 		F2A013DC1EF056BB0069BFAA /* SocialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A013DB1EF056BB0069BFAA /* SocialAppTests.swift */; };
 		F2A013E71EF056BB0069BFAA /* SocialAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A013E61EF056BB0069BFAA /* SocialAppUITests.swift */; };
-		F2A013F51EF056E50069BFAA /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = F2A013F41EF056E50069BFAA /* GoogleService-Info (2).plist */; };
+		F2A013F51EF056E50069BFAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2A013F41EF056E50069BFAA /* GoogleService-Info.plist */; };
+		F2A013FA1EF06B7A0069BFAA /* Simage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2A013F91EF06B7A0069BFAA /* Simage1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +63,8 @@
 		F2A013E21EF056BB0069BFAA /* SocialAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A013E61EF056BB0069BFAA /* SocialAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppUITests.swift; sourceTree = "<group>"; };
 		F2A013E81EF056BB0069BFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2A013F41EF056E50069BFAA /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		F2A013F41EF056E50069BFAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2A013F91EF06B7A0069BFAA /* Simage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Simage1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		F2A013C21EF056BB0069BFAA /* SocialApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2A013FB1EF06B8C0069BFAA /* images */,
 				F2A013F81EF0618A0069BFAA /* view */,
 				F2A013F71EF0617D0069BFAA /* Controller */,
 				F2A013F61EF0616E0069BFAA /* model */,
@@ -149,7 +152,7 @@
 				F2A013CD1EF056BB0069BFAA /* Assets.xcassets */,
 				F2A013CF1EF056BB0069BFAA /* LaunchScreen.storyboard */,
 				F2A013D21EF056BB0069BFAA /* Info.plist */,
-				F2A013F41EF056E50069BFAA /* GoogleService-Info (2).plist */,
+				F2A013F41EF056E50069BFAA /* GoogleService-Info.plist */,
 				F2A013CA1EF056BB0069BFAA /* SocialApp.xcdatamodeld */,
 			);
 			path = SocialApp;
@@ -193,6 +196,14 @@
 			children = (
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		F2A013FB1EF06B8C0069BFAA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F2A013F91EF06B7A0069BFAA /* Simage1.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,10 +325,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A013F51EF056E50069BFAA /* GoogleService-Info (2).plist in Resources */,
+				F2A013F51EF056E50069BFAA /* GoogleService-Info.plist in Resources */,
 				F2A013D11EF056BB0069BFAA /* LaunchScreen.storyboard in Resources */,
 				F2A013CE1EF056BB0069BFAA /* Assets.xcassets in Resources */,
 				F2A013C91EF056BB0069BFAA /* Main.storyboard in Resources */,
+				F2A013FA1EF06B7A0069BFAA /* Simage1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
